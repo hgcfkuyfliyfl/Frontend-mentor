@@ -1,0 +1,200 @@
+ 
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+.attribution { font-size: 19px; 
+               text-align: center;  
+               position: relative;
+               
+ }
+.attribution a { color: hsl(228, 45%, 44%); 
+}
+
+
+#box{
+    position: fixed;
+    height:   100%;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    
+    
+    
+}
+
+#inner-box{
+    position:relative;
+    margin: 5% auto;
+    height: 65%;
+    width: 20%;
+    background-color:   hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    
+    
+  
+    
+}
+
+#image{
+   position: absolute;
+   height: 60%;
+   width: 90%;
+   border-radius: 10px;
+   top: 3%;
+   right: 5%;
+    
+}
+
+h3{
+    position: absolute;
+    bottom: 17%;
+    font-weight: 700;
+   
+}
+ p{
+    position: absolute;
+    top: 75%;
+    font-size: 15px;
+    padding: 10px;
+    opacity: 60%;
+ }
+ #center{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 400;
+ }
+  
+  
+ @media (max-width: 1280px) {
+
+    #inner-box{
+        margin: 5% auto;
+        height: 67%;
+        width: 22%;
+        
+        padding: 15px;  
+  }
+
+ 
+}
+  @media (max-width: 1024px) {
+
+    #inner-box{
+        margin: 5% auto;
+        height: 71%;
+        width: 26%;
+        
+        padding: 22px;  
+  }
+  p{
+    
+    font-size: 14px;
+    
+     
+ }
+  
+    
+  }
+
+  @media (max-width: 769px) {
+
+    #inner-box{
+        margin: 5% auto;
+        height: 70%;
+        width: 35%;
+        
+        padding: 30px;  
+  }
+  p{
+    
+    font-size: 15px;
+    padding: 10px;
+    top: 73%;
+     
+ }
+ h3{
+    
+    bottom: 20%;
+ }
+ 
+    
+  }
+
+  @media (max-width: 640px) {
+    #inner-box{
+        margin: 5% auto;
+        height: 80%;
+        width: 55%;
+        
+        padding: 10px;  
+  }
+  p{
+    
+    font-size: 15px;
+    padding: 10px;
+     
+ }
+ h3{
+    font-size:  
+ }
+ 
+    
+  }
+
+  @media (max-width: 475px) {
+     #inner-box{
+        margin: 5% auto;
+        height: 70%;
+        width: 55%;
+        
+        padding: 30px;  
+  }
+  p{
+    
+    font-size: 15px;
+    padding: 10px;
+    top: 73%;
+     
+ }
+ h3{
+    
+    bottom: 20%;
+ }
+ 
+    
+ 
+    
+  }
+
+  @media (max-width: 375px) {
+     #inner-box{
+        margin: 5% auto;
+        height: 70%;
+        width: 70%;
+        
+        padding: 30px;  
+  }
+  p{
+    
+    font-size: 15px;
+    padding: 10px;
+    top: 73%;
+     
+ }
+ h3{
+    
+    bottom: 20%;
+ }
+ 
+    
+  }
+
+   
+   
